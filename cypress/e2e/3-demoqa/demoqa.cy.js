@@ -56,7 +56,7 @@ describe("Demoqa", () => {
           RadioButtonsPage.visit();
         });
      
-        it.only("Click radio buttons", () => {
+        it("Click radio buttons", () => {
           // Click Yes radio button
           // Validate that "You have selected Yes"
           // Click Impressive button
